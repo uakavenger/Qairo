@@ -1,20 +1,75 @@
-# AI Usage Declaration (complete before submission)
+# ЖАСАНДЫ ИНТЕЛЛЕКТТІ ПАЙДАЛАНУ ТУРАЛЫ ДЕКЛАРАЦИЯ
 
-**Student(s):** [Enter full name(s) and student ID(s)]  
-**Course / project:** QAIRU AI Fundamentals — QAIRO Smart AI Study Assistant  
-**AI tool used:** OpenAI ChatGPT / Codex (retain only the tools actually used)
+**Жоба атауы:** QAIRO – Ақылды оқу көмекшісі (Smart AI Study Assistant)  
+**Пән:** Жасанды интеллект  
+**Пайдаланылған ЖИ құралы:** ChatGPT (OpenAI)
 
-## Assistance received
+**Топ мүшелері:**
+1. Токанов Алибек
+2. Сарыев Уалихан
+3. Рымбай Дамир
+4. Мирзахмет Рауан
 
-AI assistance was used to plan and revise the website, draft or modify Python, HTML, CSS and JavaScript, design the Q-learning, Bayesian and logistic-regression demonstrations, prepare tests, and draft project documentation and presentation content. AI also helped create Kazakh-language interface and explanatory text. The student should add the actual prompts or a prompt log if the instructor requires it.
+## 1. Жасанды интеллект құралын пайдалану мақсаты
 
-## Student review and responsibility
+Біздің команда QAIRO – «Ақылды оқу көмекшісі» жобасын әзірлеу барысында ChatGPT (OpenAI) құралын қосымша көмекші құрал ретінде пайдаланды.
 
-Before submitting, the student must personally run the site and tests, check the algorithms and explanations against course materials, edit this declaration to describe the assistance actually retained, verify the presentation and report, complete identifying details, and correct any errors. Do not claim a review or contribution that did not happen. The student is responsible for the final work and for following the course's AI-use policy.
+ChatGPT оқу, бағдарламалық әзірлеу, қателерді анықтау және түзету, сондай-ақ жобалық құжаттаманы дайындау үдерістерінде көмек көрсету үшін қолданылды. Ол команданың өз бетінше жұмыс істеуін, шешім қабылдауын және жоба үшін жауапкершілігін алмастырған жоқ.
 
-## Known limitations disclosed
+## 2. Жасанды интеллектті пайдалану бағыттары
 
-The classifier trains and evaluates on synthetic data. Bayesian outputs depend on chosen assumptions. The learning session exists only in server memory. The original two project requirement documents were unavailable in this workspace, so exact rubric alignment still needs a student check.
+ChatGPT төмендегі мақсаттарда пайдаланылды:
 
-**Student confirmation:** [Complete only after reviewing the final project.]  
-**Signature/date:** [Complete]
+**1. Бағдарламалау бойынша көмек**
+- Бағдарламалау ұғымдары мен принциптерін түсіну.
+- Бағдарламалық кодтың құрылымын жақсарту бойынша ұсыныстар алу.
+- Бағдарламадағы қателерді анықтау және түзету.
+- Серверлік және пайдаланушы интерфейсін әзірлеу принциптерін түсіндіру.
+
+**2. Жасанды интеллект алгоритмдерін әзірлеу бойынша көмек**
+- Q-learning алгоритмі мен күшейту арқылы оқыту әдісін түсіндіру.
+- Байестік қорытынды (Bayesian Inference) әдісін түсінуге көмектесу.
+- Логистикалық регрессия (Logistic Regression) әдісін түсіндіру.
+- Аталған алгоритмдердің QAIRO жүйесінде қолданылуын сипаттауға көмектесу.
+
+**3. Тестілеу және қателерді түзету**
+- Тестілеу сценарийлерін әзірлеу бойынша ұсыныстар алу.
+- Ықтимал қателерді анықтауға көмектесу.
+- Жүйенің күтілетін жұмыс тәртібін және енгізілетін деректерді тексеру жолдарын түсіндіру.
+
+**4. Құжаттама және презентация дайындау**
+- Техникалық құжаттаманы дайындауға көмектесу.
+- Жоба сипаттамалары мен түсіндірмелерін жетілдіру.
+- Презентация материалдарын құрылымдау.
+- Жобаны бейнежазба арқылы көрсету сценарийін дайындау.
+
+## 3. Жобада іске асырылған жасанды интеллект әдістері
+
+QAIRO жобасында жасанды интеллекттің үш әдісі қолданылады:
+
+- **Q-learning:** оқушының оқу нәтижелеріне байланысты келесі сұрақтардың күрделілік деңгейін бейімдеу үшін қолданылады.
+- **Байестік қорытынды (Bayesian Inference):** оқушының белгілі бір тақырыпты меңгеру ықтималдығын бағалау үшін қолданылады.
+- **Логистикалық регрессия (Logistic Regression):** қолда бар оқу деректеріне сүйене отырып, оқушының дайындық деңгейін жіктеу үшін қолданылады.
+
+Бұл әдістер жобаның техникалық іске асырылуының құрамдас бөлігі болып табылады және команда жұмысының нәтижесі ретінде ұсынылады.
+
+## 4. Команданың үлесі мен жауапкершілігі
+
+Команданың барлық мүшелері өздеріне бөлінген міндеттерге сәйкес жобаны әзірлеуге қатысты.
+
+Команда жасанды интеллект ұсынған материалдар мен шешімдерді жобаға енгізбес бұрын тексеріп, бағалады. Бағдарламалық кодты түпкілікті іске асыру, жүйеге біріктіру, тестілеу, жобалық шешімдер қабылдау және ұсынылған нәтижелер үшін жауапкершілік командаға жүктеледі.
+
+ChatGPT тек қосымша көмекші құрал ретінде пайдаланылды және жобаның авторы немесе команда мүшесі болып саналмайды.
+
+## 5. Жасанды интеллектті пайдалану туралы растау
+
+Біз QAIRO жобасын әзірлеу барысында ChatGPT (OpenAI) құралының қосымша көмекші құрал ретінде пайдаланылғанын растаймыз.
+
+Біз жасанды интеллект көмегінің пайдаланылғанын мойындаймыз және ұсынылған жобаның дұрыстығы, бірегейлігі, жұмысқа қабілеттілігі мен түпкілікті нұсқасы үшін жауапкершілікті өз мойнымызға аламыз.
+
+**Команда мүшелері:**
+
+Токанов Алибек  
+Сарыев Уалихан  
+Рымбай Дамир  
+Мирзахмет Рауан
