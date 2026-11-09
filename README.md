@@ -58,7 +58,7 @@ outputs/
 Жобаға `render.yaml` қосылды. Ол Render-ді стандартты кітапхана серверімен іске қосады: құрастыру кезінде пакеттер орнатылмайды, ал Render ұсынған `PORT` және `0.0.0.0` хосты қолданылады. Render веб-қызметі сұрауларды қабылдау үшін `0.0.0.0` адресі мен `PORT` айнымалысына байланысуы керек екені [ресми нұсқаулықта](https://render.com/docs/web-services) жазылған. Render Dashboard-та `New > Blueprint` таңдаңыз, Git репозиторийін байланыстырыңыз да, `Deploy Blueprint` батырмасын басыңыз. [Blueprint нұсқаулығын](https://render.com/docs/infrastructure-as-code) қараңыз.
 
 1. GitHub-та бос repository ашыңыз. README, `.gitignore` немесе лицензия файлын GitHub-та алдын ала қоспаңыз.
-2. Осы қалтадан PowerShell ашып, GitHub бетінде көрсетілген URL-ді қолданыңыз:
+2. Алғашқы push үшін осы компьютердегі Git commit-і бар түпнұсқа `outputs` қалтасынан PowerShell ашыңыз. Жүктеп алуға арналған ZIP файлы жасырын `.git` бумасын қамтымайды. GitHub бетінде көрсетілген URL-ді қолданыңыз:
 
 ```text
 git remote add origin https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY.git
