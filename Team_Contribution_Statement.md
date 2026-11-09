@@ -1,19 +1,32 @@
-# Team Contribution Statement (editable)
+# КОМАНДА МҮШЕЛЕРІНІҢ ЖОБАҒА ҚОСҚАН ҮЛЕСІ ТУРАЛЫ ЕСЕП
 
-Select and complete the applicable option; remove the other option before submission.
+**Жоба атауы:** QAIRO – Ақылды оқу көмекшісі (Smart AI Study Assistant)
 
-## Solo submission
+## Команда мүшелері және олардың міндеттері
 
-**Student:** [Full name, student ID]  
-I completed the project individually. My contributions: [requirements analysis], [algorithm design and implementation], [testing], [report and presentation], [demo recording]. Any AI assistance is described in `AI_Usage_Declaration.md`.  
-**Signature/date:** [Complete]
+1. **Токанов Алибек** – бағдарламалау, қосымшаның серверлік (Backend) және пайдаланушы интерфейсін (Frontend) әзірлеу.
 
-## Team submission
+2. **Сарыев Уалихан** – жасанды интеллект алгоритмдерін әзірлеу және іске асыру, соның ішінде Q-learning, Bayesian Inference және Logistic Regression әдістерімен жұмыс істеу.
 
-| Team member | Student ID | Specific contribution | Evidence / files reviewed | Confirmation |
-|---|---|---|---|---|
-| [Name 1] | [ID] | [Contribution] | [Evidence] | [Signature/date] |
-| [Name 2] | [ID] | [Contribution] | [Evidence] | [Signature/date] |
-| [Name 3] | [ID] | [Contribution] | [Evidence] | [Signature/date] |
+3. **Рымбай Дамир** – пайдаланушы интерфейсінің дизайнын және визуалды безендірілуін әзірлеу.
 
-All members confirm that the table accurately describes individual contributions and that each member can explain the submitted work. Add or remove rows as needed.
+4. **Мирзахмет Рауан** – пайдаланушы интерфейсінің дизайнын және визуалды безендірілуін әзірлеу.
+
+## Ортақ міндеттер
+
+Команданың барлық мүшелері жобаны жалпы әзірлеу, идеяларды талқылау, құжаттаманы дайындау, тестілеу, презентация әзірлеу және жобаны таныстыру жұмыстарына қатысты.
+
+## Растау
+
+Біз жоғарыда көрсетілген міндеттер команда мүшелері арасында жобаны әзірлеу барысында бөлінген нақты жұмыс бағыттарын көрсететінін растаймыз.
+
+**Команда мүшелері:**
+
+Токанов Алибек  
+Сарыев Уалихан  
+Рымбай Дамир  
+Мирзахмет Рауан
+
+**Күні:** __________________
+
+**Қолдары:** __________________
