@@ -1,1 +1,1 @@
-web: gunicorn --workers 1 --threads 4 --timeout 120 server:app
+web: python local_server.py

@@ -3,6 +3,9 @@ services:
     name: qairo-smart-ai-study-assistant
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn --workers 1 --threads 4 --timeout 120 server:app
+    buildCommand: python -m py_compile learning_engine.py local_server.py
+    startCommand: python local_server.py
     healthCheckPath: /api/health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0

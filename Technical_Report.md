@@ -26,7 +26,7 @@ The classifier is a real trained model, but its dataset is generated for demonst
 
 `local_server.py` uses `http.server`, `json`, `urllib`, and other Python standard-library modules. `launch.py` starts that server, checks its local health endpoint and opens the default browser. Windows has `start_windows.bat`; macOS/Linux has `start_unix.sh`. The server binds only to `127.0.0.1` by default. Assets and API requests are local; Google Fonts and other external resources are not loaded.
 
-`learning_engine.py` contains the three algorithms and the synthetic training data. `templates/index.html`, `static/css/style.css` and `static/js/app.js` provide the responsive Kazakh interface. `test_app.py` starts an ephemeral loopback HTTP server and exercises rendered HTML, local assets, API behavior, invalid requests and algorithm outputs. `server.py`, `requirements.txt`, `Procfile` and `render.yaml` are retained as an optional Flask hosting path; that optional deployment path is separate from the verified offline launcher.
+`learning_engine.py` contains the three algorithms and the synthetic training data. `templates/index.html`, `static/css/style.css` and `static/js/app.js` provide the responsive Kazakh interface. `test_app.py` exercises the API dispatcher, static assets, invalid requests, algorithm outputs, and hosting settings without opening a network port. A separate local HTTP smoke check previously verified the running server and key endpoints. Render uses `render.yaml` and `local_server.py`; the legacy `server.py` and `requirements.txt` are optional and are not used by the offline or Render launch paths.
 
 ## Bayesian model
 
@@ -57,7 +57,7 @@ The API validates session IDs, topics, question identity, answer indexes, Bayesi
 
 Run the offline version with `start_windows.bat` or `py -3 launch.py` on Windows, or `python3 launch.py` on macOS/Linux. No virtual environment is needed. Run `py -3 -m unittest -v` (or the platform's Python command) to execute the test suite.
 
-The local Git repository is prepared for a later GitHub push. No GitHub credential or remote repository was provided, so no remote push or public deployment was performed. The previous Flask/Render configuration remains optional and may require package installation and a hosting account; it is not part of the offline verification.
+The local Git repository is committed and prepared for a later GitHub push. `render.yaml` now configures Render to run the standard-library server, bind to `0.0.0.0` and read the assigned `PORT`; its build command compiles Python files and does not install packages. `Procfile` matches that start command. The host settings and Blueprint commands are covered by tests. No GitHub remote or Render account was connected, so the public service and its generated URL have not been created. Free Render web services can spin down when idle; session data lives in memory and resets after restarts.
 
 ## Requirement-document status
 

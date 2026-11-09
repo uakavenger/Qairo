@@ -96,9 +96,21 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self,format,*args):pass
 
 
+def get_bind_target():
+    host=os.environ.get("HOST","127.0.0.1")
+    port=int(os.environ.get("PORT","5000"))
+    return host,port
+
+
+def create_server():
+    host,port=get_bind_target()
+    return ThreadingHTTPServer((host,port),Handler)
+
+
 def main():
-    port=int(os.environ.get("PORT","5000"));httpd=ThreadingHTTPServer(("127.0.0.1",port),Handler)
-    print(f"QAIRO local preview: http://127.0.0.1:{port}",flush=True);httpd.serve_forever()
+    httpd=create_server()
+    host,port=httpd.server_address[:2]
+    print(f"QAIRO server listening on {host}:{port}",flush=True);httpd.serve_forever()
 
 
 if __name__=="__main__":main()
